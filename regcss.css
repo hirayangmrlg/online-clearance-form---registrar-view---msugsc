@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ecf1fa;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.card {
+    padding: 30px 25px;
+    background: #FFF;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 90px auto;
+    position: relative;
+    box-shadow: 0 7px 15px #dbe2ed;
+}
+.card .close {
+    cursor: pointer;
+    position: absolute;
+    top: -3px;
+    right: 12px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.card .title {
+    color: #303a56;
+    font-size: 18.5px;
+    max-width: 300px;
+    word-spacing: 2.5px;
+    margin-bottom: 15px;
+}
+.card .text {
+    font-size: 13.5px;
+    color: #242e4c;
+    margin-bottom: 25px;
+}
+.card form input {
+    font-size: 15.5px;
+    padding: 11px 17px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.card form input[type="email"] {
+    border: 1px solid #ebebeb;
+    margin-right: 5px;
+}
+.card form input[type="email"]:focus {
+    box-shadow: 0 5px 15px #c6cfe6;
+    outline: 1px solid #c6cfe6;
+}
+.card form input[type="submit"] {
+    cursor: pointer;
+    border: 1px solid #5771eb;
+    background: #5771eb;
+    word-spacing: 3px;
+    font-weight: bold;
+    color: #FFF;
+    box-shadow: 0 5px 15px #c6cfe6;
+}
+.card form input[type="submit"]:hover {
+    box-shadow: none;
+}
+@media (max-width: 460px) {
+    .card .title {
+        margin-top: 15px;
+    }
+    .card .text {
+        margin: 30px 0;
+    }
+    .card form input {
+        display: block;
+        width: 100%;
+    }
+    .card form input[type="submit"] {
+        margin: 15px 0;
+    }
+}

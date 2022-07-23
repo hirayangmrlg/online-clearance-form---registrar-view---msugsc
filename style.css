@@ -1,0 +1,104 @@
+
+/*Table*/
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  color: #0f0f0f; }
+
+  
+/*REGISTRAR FORM*/
+.registrar-form {
+  margin-left: auto;
+  margin-right:auto;
+  }
+
+.card-registrar-form{
+  border-collapse: collapse;
+  font-size: 0.9em;
+  border-radius: 5px;
+  overflow: visible;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+}
+  
+  .registrar-search{
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35);
+    box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35); }
+
+    .card-registrar-title {
+      color: #ffffff;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      text-transform: capitalize;
+      font-family: "ubuntu-medium", sans-serif;
+      font-size: 1.125rem; }
+
+      .reg_form {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        border-collapse: collapse;
+    
+      }
+
+      .studentName {
+        text-align: center;
+      }
+
+      .label_studentName {
+        margin-right: 0%; 
+        padding-right: 0%; 
+        padding-left: 11%;
+      }
+
+      .label_studentName {
+        margin-right: 0%; 
+        padding-right: 0%; 
+        padding-left: 11%;
+      }
+
+      .label_form {
+        margin-right: 0%;
+        padding-right: 0%;
+      }
+
+      .input_form{
+        margin-left: 0%;
+        padding-left: 0%;
+      }
+
+      .click, .popup_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+      }
+  
+      .popup_box{
+        width: 70%;
+        background: #f2f2f2;
+        text-align: center;
+        align-items: center;
+        padding: 20px 5px;
+        border: 1px solid #b3b3b3;
+        box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+        z-index: 9999;
+        display: none;
+      }
+
+      #myInput {
+        width: 50%; /* Full-width */
+        margin-left: 0%;
+        font-size: 16px; /* Increase font-size */
+        padding: 12px 20px 12px 40px; /* Add some padding */
+        border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 12px; /* Add some space below the input */
+      }
+
+    .table tbody tr:hover{
+        background-color: #fffc93; /* Add a hover effect to all links, except for headers */
+      }
